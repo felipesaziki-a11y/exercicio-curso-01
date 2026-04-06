@@ -2,5 +2,5 @@
   "workbench.editor.enablePreview": false,
   "editor.stickyScroll.enabled": false,
   "files.autoSave": "afterDelay",
-  "liveServer.settings.root": 0
+  "liveServer.settings.port": 0
 }
