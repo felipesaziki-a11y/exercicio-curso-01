@@ -225,6 +225,84 @@ function exercicio21(){
         alert("Error")
     }
 }
+function exercicio22(){
+    let x = parseInt(prompt("Digite número X"));
+    let y = parseInt(prompt("Digite número Y"));
+    let z = parseInt(prompt("Digite número Z"));
+    if (x > y && y > z){
+        alert(x + " é o maior de todos")
+    } else if (y > x && y > z){
+        alert(y + " é o maior de todos")
+    } else if (z > y && z > x){
+        alert(z + " é o maior de todos")
+    }
+}
+function exercicio23(){
+    let x = parseInt(prompt("Digite número X"));
+    let y = parseInt(prompt("Digite número Y"));
+    let z = parseInt(prompt("Digite número Z"));
+    if (x < y && x < z){
+        alert(x + " é o menor de todos")
+    } else if (y < x && y < z){
+        alert(y + " é o menor de todos")
+    } else if (z < y && z < x){
+        alert(z + " é o menor de todos")
+    }
+}
+function exercicio24(){
+    let x = parseInt(prompt("Digite número X"));
+    let y = parseInt(prompt("Digite número Y"));
+    let z = parseInt(prompt("Digite número Z"));
+    if (x > y && y > z){
+        alert("Ordem decrescente")
+    } else if (x < y && y < z){
+        alert("Ordem crescente")
+    } else {
+        alert("Nadaver")
+    }
+}
+function exercicio25(){
+    let idade = parseInt(prompt("Digite sua idade"));
+    if (idade >= 0 && idade <= 10){
+        alert("Idade: " + idade + "\nCriança")
+    } else if (idade >= 11 && idade <= 17){
+        alert("Idade: " + idade + "\nAdolescente")
+    } else if (idade >= 18 && idade <= 59){
+        alert("Idade: "+idade+"\nAdulto")
+    } else {
+        alert("Idade: "+idade+"\nIdoso")
+    }
+}
+function exercicio26(){
+    let item = 100.00;
+    let saldo = 100.00;
+    let forma = prompt("Forma de Pagamento");
+    let desconto = 0.99;
+    if (forma = "crédito"){
+        total = saldo - (item - desconto);
+        descontoCheck = "Sim"
+    } else if (forma = "débito"){
+        total = saldo - item;
+        descontoCheck = "Não"
+    }
+    alert("Forma de pagamento: " + forma + "\nDesconto: " + descontoCheck + "\nTroco: " + total.toFixed(2))
+}
+function exercicio27(){
+    let x = parseInt(prompt("Digite X"))
+    let y = parseInt(prompt("Digite Y"))
+    if (x >= 0 && y >= 0){
+        alert("Os dois são positivos")
+    } else if (x <= 0 && y <= 0){
+        alert("Os dois são negativos")
+    } else if (x >= 0 && y <=0){
+        alert("Y é negativo")
+    } else if (x <= 0 && y >= 0){
+        alert("X é negativo")
+    }
+}
+function exercicio28(){
+    
+}
 /*
 xyz
 xzy
