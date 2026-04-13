@@ -301,7 +301,11 @@ function exercicio27(){
     }
 }
 function exercicio28(){
-    
+    let nota1 = parseInt(prompt("Digite Nota 1"))
+    let nota2 = parseInt(prompt("Digite Nota 2"))
+    let nota3 = parseInt(prompt("Digite Nota 3"))
+    let media = (nota1 + nota2 + nota3)/3;
+    let faltas = parseInt(prompt("Quantidade de faltas"))
 }
 /*
 xyz

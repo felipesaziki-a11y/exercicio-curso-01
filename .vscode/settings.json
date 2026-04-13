@@ -4,7 +4,11 @@
   "editor.stickyScroll.enabled": false,
   "files.autoSave": "afterDelay",
   "github.copilot.enable": false,
-  "editor.quickSuggestions": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
   "editor.suggestOnTriggerCharacters": false,
   "liveServer.settings.port": 0
 }
